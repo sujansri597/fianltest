@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="number" table="x_291813_harekrish_pooja">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="prasad_offered" table="x_291813_harekrish_pooja">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Number</column_label>
+        <column_label>Prasad Offered</column_label>
         <comments/>
         <create_roles/>
-        <default_value>javascript:global.getNextObjNumberPadded();</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -22,14 +27,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>number</element>
+        <element>prasad_offered</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <mandatory>true</mandatory>
+        <max_length>1000</max_length>
         <name>x_291813_harekrish_pooja</name>
         <next_element/>
         <primary>false</primary>
@@ -47,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-22 16:57:39</sys_created_on>
-        <sys_id>3d3f8c692ffa501011e3578b2799b6fa</sys_id>
+        <sys_created_on>2020-08-22 17:07:20</sys_created_on>
+        <sys_id>35e054e92ffa501011e3578b2799b638</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Number</sys_name>
+        <sys_name>Prasad Offered</sys_name>
         <sys_package display_value="Harekrishna" source="x_291813_harekrish">ae9e8c292ffa501011e3578b2799b612</sys_package>
         <sys_policy/>
         <sys_scope display_value="Harekrishna">ae9e8c292ffa501011e3578b2799b612</sys_scope>
-        <sys_update_name>sys_dictionary_x_291813_harekrish_pooja_number</sys_update_name>
+        <sys_update_name>sys_dictionary_x_291813_harekrish_pooja_prasad_offered</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-22 16:59:39</sys_updated_on>
+        <sys_updated_on>2020-08-22 17:07:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
