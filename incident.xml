@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true,query_hints=true,hasLabels=true,hasWorkflow=true,live_feed=true" audit="true" defaultsort="-1" extends="task" label="Incident" max_length="40" name="incident" sizeclass="95304" text_index="true" type="collection">
+        <element label="Has Cray Case" max_length="40" name="x_ners2_crayport_has_cray_case" read_only="true" type="boolean"/>
+        <element label="Cray Case" max_length="32" name="x_ners2_crayport_u_cray_case" reference="x_ners2_crayport_cray_case" type="reference"/>
+    </element>
+</database>
